@@ -8,7 +8,6 @@ int main() {
     a=5;
     int *pi;
     pi=&a;
-    int b=*pi;
     pi = NULL;
     int c=*pi;
 }

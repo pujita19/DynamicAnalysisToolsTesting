@@ -1,4 +1,4 @@
-// Dereferencing freed memory
+// Freeing memory on the stack
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -8,5 +8,4 @@ int main() {
     int b=5;
     a = &b;
     free(a);
-    int c=*a;
 }

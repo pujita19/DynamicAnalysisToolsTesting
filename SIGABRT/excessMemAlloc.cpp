@@ -4,6 +4,6 @@
 using namespace std;
 
 int main() {
-    int a = 1e9;
+    long long a = 1e11;
     int* arr = new int[a];
 }
